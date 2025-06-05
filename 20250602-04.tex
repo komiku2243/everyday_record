@@ -1,0 +1,211 @@
+\documentclass{ltjsarticle}
+\usepackage{tikz}
+\usepackage[margin=35truemm]{geometry}
+\usepackage{caption}
+\captionsetup{justification=centering}
+\usepackage{amssymb,bm,enumerate,graphicx}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}%shiki-bangou-you
+\numberwithin{equation}{subsection}
+\usepackage{mathtools}%shiki-bangou-you
+\usepackage{mathrsfs}%hana-moji-you
+
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}%break_the_box
+
+\newcommand{\ctext}[1]{\raise0.2ex\hbox{\textcircled{\scriptsize{#1}}}}
+
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{hyperref}%links-within-docs
+%\usepackage{siunitx}%siunit
+\usepackage{longtable}%table which goes over pages;longtable environment
+\usepackage{ulem}%wave lines, xouts
+\usepackage{color}% \color{hogehoge} 
+
+\usepackage{CJKutf8}
+
+% 中国語用コマンド
+\newcommand{\Chinese}[1]{{\begin{CJK*}{UTF8}{gbsn}#1\end{CJK*}}}
+% 韓国語用コマンド
+\newcommand{\Korean}[1]{{\begin{CJK}{UTF8}{}\CJKfamily{mj}#1\end{CJK}}}
+%発音記号
+\usepackage{tipa,tipx}
+
+\title{Study Record}
+\date{02-04/06/2025, Last modification:\today}
+\author{komiku2243}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Outline}
+\begin{itemize}
+    \item Shot \& submitted Prac video
+    \item Elaborate read of \cite{ling}, \cite{mohammadi}, \cite{shen}, \cite{tersteegen}
+    \item Roughly read $\S 2, 4$ of \cite{guevorkian}
+    \item Prepped lab meeting slides
+    \item BIOS1167 w12-1 review
+\end{itemize}
+Woke up: \\
+Total Working Hours:\\
+Fiddled Out for 
+%review article
+\newpage
+\section{Ling et al., 2018 \cite{ling}}
+(Review article)
+\subsection{Purpose and Scope}
+% このレビューの目的、カバー範囲
+Comparing the natural and artificial nanofibrils, wrapping up the understanding on their difference in mechanical properties,
+ on-going ways to improve artificial nanofibrils, and rational material designs.
+and efficient way to 
+\subsection{Main Topics}
+Since my topic is about silk, I most elaborately read and comtemplate the following topics;
+\begin{itemize}
+  \item Hierarchical structure of silk; Multidimentionality (the smallest unit$\to$ β-sheet of 2-4 nm$\to$ amorphous silk nanofibril of 50(\pm 30) nm $\to$ silk fiber) of natural silk plays a crutial role
+  Confinement to 2-4 nm allows "stick-slip" motion under sheer, where H-bond will reform and thus the energy will be dissipilated.
+  Plus, inplane mechanical anisotropy will increase the fracture resistance
+  \item Fabrication strategies;(1D) artificial Spinning and (2D) chemical modification are mainly ongoing way. 
+  Though all the used way confirms nanofibrils ordered orientation,  wet(a dope is extreded into a non-solvent just after the extrusion), dry (silk dope is dried on volatile solvant) artificial spinning can't realize the strength of their counterpart in nature;
+   The interaction between the fibers is weaker. Both have pros and cons. 
+   The wet spinning can be undertaken with lower concentration while the dry spinning enables polymorphic arrangement.
+    One of the merging way is "microfluidic spinning," which enables better controllability
+    , which can realize better mechanical properties (stiffness, strength and toughness) than wet/dry spinnings, but its elastic moduli is still inferior to natural nanofibrils.
+    3D prining is also viable but can be done with thick, non-newtonian dope.
+\end{itemize}
+
+\subsection{Key Figures/Models}
+% 重要な図や全体像を示す図など
+%\includegraphics[width=0.7\linewidth]{keyfigure.png}
+
+\subsection{Notable Points and Future Directions}
+% 強調されている発展・未解決課題
+\begin{itemize}
+    \item Scale-up Production
+    \item To realize highly ordered structure
+\end{itemize}
+\subsection{My Comments and Keywords}
+\begin{enumerate}
+    \item How can we explain the occurance of "stick-slip" motion with nanoconfinement?
+\end{enumerate}
+\subsection{References of Interest}
+% 気になった引用論文
+\begin{itemize}
+    \item Keten, S., Xu, Z. P., Ihle, B. \& Buehler, M. J. Nanoconfinement controls stiffness, strength and mechanical toughness of βsheet crystals in silk. Nat. Mater. 9, 359-367 (2010).  \textbf{This paper introduces the nanoconfinement of silk nanocrystals.}
+    \item Omenetto, F. G. \& Kaplan, D. L. New opportunities for an ancient material. Science 329, 528-531 (2010).
+    \item Nova, A., Keten, S., Pugno, N. M., Redaelli, A. \& Buehler, M. J. Molecular and nanostructural mechanisms of deformation, strength and toughness of spider silk fibrils. Nano Lett. 10, 2626-2634 (2010).
+\end{itemize}
+
+\newpage
+\section{Mohammadi et al.,(2018),\cite{mohammadi}}
+
+\subsection{1. Background/Purpose}
+% ここに1-2行
+To demonstrate effect of weak dimerization of terminul sequences in the LLPS of silk spindroin.
+\subsection{2. Methods}
+% 手法の要点
+
+\subsection{3. Main Results}
+% 主な結果や数値、図の挿入
+%\includegraphics[width=0.7\linewidth]{fig1.png}
+
+\subsection{4. Novelty \& Discussion}
+% 新規性・議論
+
+\subsection{5. My Comments}
+% 疑問点、着想、批判
+\newpage
+\section{Tersteegen et al.,(2024),\cite{tersteegen}}
+
+\subsection{1. Background/Purpose}
+% ここに1-2行
+To demonstrate effect of background on LLPS process and mechanical properties of coacervates.
+\subsection{2. Methods}
+% 手法の要点
+POI is CBM-AQ12-CBM (CBM:cellulose binding module, AQ12:he main component of spindroin, IDRs).
+Compared HT(heat treatment), IMAC(l His-tag immobilized metal affinity chromatography) purified, BG, BG+IMAC.
+
+\subsection{3. Main Results}
+% 主な結果や数値、図の挿入
+%\includegraphics[width=0.7\linewidth]{fig1.png}
+\begin{enumerate}
+    \item SEM
+    \item AIEs
+    (Aggregation Induced Emitters):TPE4PH
+    \item micropippette aspiration and ICV analysis   
+\end{enumerate}
+\subsection{4. Novelty \& Discussion}
+% 新規性・議論
+
+\subsection{5. My Comments}
+% 疑問点、着想、批判
+\newpage
+\section{Shen et al.,(2020),\cite{shen}}
+\subsection{1. Background/Purpose}
+% ここに1-2行
+To demonstrate fibre formation from coacervates under sheer considerable in nervous system almost regradless of AA seq
+\subsection{2. Methods}
+% 手法の要点
+
+\subsection{3. Main Results}
+% 主な結果や数値、図の挿入
+%\includegraphics[width=0.7\linewidth]{fig1.png}
+\begin{enumerate}
+    \item SEM
+    \item AIEs
+    (Aggregation Induced Emitters):TPE4PH
+    \item micropippette aspiration and ICV analysis   
+\end{enumerate}
+\subsection{4. Novelty \& Discussion}
+% 新規性・議論
+
+\subsection{5. My Comments}
+\begin{enumerate}
+    \item In the first place, is it possible for composition change of surrounding to occur? How likely are they? 
+\end{enumerate}
+\section{To-dos}
+\begin{itemize}
+    \item \cite{guevorkian},\cite{kkyogo},\cite{keten},\cite{omenetto},\cite{nova}
+    \item $\S 2-3$ of Relativity Theory by Y. Sudo. 
+    \item BIOS1167, check quiz and review
+    \item PMGT1860 individual assignment
+\end{itemize}
+\begin{thebibliography}{9}
+    \bibitem{ling}Ling, S., Kaplan, D. L., \& Buehler, M. J. (2018). Nanofibrils in nature and materials engineering. Nature Reviews Materials, 3(4), 18016. https://doi.org/10.1038/natrevmats.2018.16
+    \bibitem{mohammadi} Mohammadi, P., Aranko, A. S., Lemetti, L., Cenev, Z., Zhou, Q., Virtanen, S., Landowski, C. P., Penttilä, M., Fischer, W. J., Wagermaier, W., \& Linder, M. B. (2018). Phase transitions as intermediate steps in the formation of molecularly engineered protein fibers. Communications Biology, 1(1), 86. https://doi.org/10.1038/s42003-018-0090-y
+\bibitem{shen} Shen, Y., Ruggeri, F. S., Vigolo, D., Kamada, A., Qamar, S., Levin, A., Iserman, C., Alberti, S., George-Hyslop, P. S., \& Knowles, T. P. J. (2020). Biomolecular condensates undergo a generic shear-mediated liquid-to-solid transition. Nature Nanotechnology, 15(10), 841–847. https://doi.org/10.1038/s41565-020-0731-4
+\bibitem{tersteegen} Tersteegen, J., Tunn, I., Sand, M., Välisalmi, T., Malkamäki, M., Gandier, J.-A., Beaune, G., Sanz-Velasco, A., Anaya-Plaza, E., \& Linder, M. B. (2024). Recombinant silk protein condensates show widely different properties depending on the sample background. Journal of Materials Chemistry B, 12(46), 11953–11967. https://doi.org/10.1039/D4TB01422G
+\bibitem{Miserez}Miserez, A., Yu, J., \& Mohammadi, P. (2023). Protein-Based Biological Materials: Molecular Design and Artificial Production. Chemical Reviews, 123(5), 2049–2111. https://doi.org/10.1021/acs.chemrev.2c00621
+\bibitem{guevorkian}Guevorkian, K., Colbert, M.-J., Durth, M., Dufour, S., \& Brochard-Wyart, F. (2010). Aspiration of Biological Viscoelastic Drops. Physical Review Letters, 104(21), 218101. https://doi.org/10.1103/PhysRevLett.104.218101
+\bibitem{kkyogo}Sequence grammar and dynamics of subcellular translation revealed by APEX-Ribo-Seq
+\bibitem{keten} Keten, S., Xu, Z. P., Ihle, B. \& Buehler, M. J. Nanoconfinement controls stiffness, strength and mechanical toughness of βsheet crystals in silk. Nat. Mater. 9, 359-367 (2010).  \textbf{This paper introduces the nanoconfinement of silk nanocrystals.}
+\bibitem{omenetto} Omenetto, F. G. \& Kaplan, D. L. New opportunities for an ancient material. Science 329, 528-531 (2010).
+\bibitem{nova} Nova, A., Keten, S., Pugno, N. M., Redaelli, A. \& Buehler, M. J. Molecular and nanostructural mechanisms of deformation, strength and toughness of spider silk fibrils. Nano Lett. 10, 2626-2634 (2010).
+\end{thebibliography}
+
+\newpage
+
+\section{New Words}
+\begin{itemize}
+    \item gradescope answer sheet: マークシート
+    \item You have no right to say that
+    \item つわり: morning sickness, emesis gravidarum【略】EG
+    \item cervix: 子宮頸部
+    \item blood clot: 血栓
+    \item complication:病気の併発
+    \item hedonic[\textipa{hi:d\'6nIk}]: characterized by pleasure; 快楽的な
+    \item adipocyte:脂肪細胞
+    \item satiety[\textipa{s@t2\'IIti}]:満腹感
+    \item morbid 病的な
+\end{itemize}
+\begin{itemize}
+    \item \Chinese{没事}[méishì]:大丈夫
+\end{itemize}
+\section{Diary}
+TIPAを導入したので\LaTeX でもIPA記号が使えるようになった。
+指導教官に”Keep reading!” と言われたのと、ちゃんと研究室が決まったっぽい。1人がmasterでそれ以外はみんなPhD課程以上だった。
+私が面白いと思ってる領域は明らかにブルーオーシャンではなくて渋い。生物的な妥当性も考えながら物理が使える人になりたいとは常々思ってる。
+「もうあの感情を抱くことはないんだなの気持ち」とメモに書いていたので何か思い出したんだけど、最早それすら忘れてしまった。
+
+\end{document}
